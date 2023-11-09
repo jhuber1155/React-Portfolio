@@ -1,10 +1,10 @@
 import './App.css';
-import Project from './components/Project';
+import About from './components/pages/About';
 
 function App() {
   return (
     <div className="project-portfolio">
-      <Project />
+      <About />
     </div>
   );
 };
