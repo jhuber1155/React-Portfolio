@@ -16,22 +16,22 @@ import Resume from '../src/components/pages/Resume';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />, //The ABOUT PAGE goes up here ????
+    element: <App />,
     children: [
         {
-            path: 'about',
+            path: '/about',
             element: <About />
         },
         {
-            path: 'portfolio',
+            path: '/portfolio',
             element: <Portfolio />,
         },
         {
-            path: 'contact',
+            path: '/contact',
             element: <Contact />,
         },
         {
-            path: 'resume',
+            path: '/resume',
             element: <Resume />,
         },
     ],

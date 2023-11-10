@@ -1,11 +1,11 @@
 import Card from 'react-bootstrap/Card';
 
-function ImgOverlayExample() {
+function Project({title}) {
   return (
     <Card className="bg-dark text-white">
       <Card.Img src="holder.js/100px270" alt="Card image" />
       <Card.ImgOverlay>
-        <Card.Title>Card title</Card.Title>
+        <Card.Title>{title}</Card.Title>
         <Card.Text>
           This is a wider card with supporting text below as a natural lead-in
           to additional content. This content is a little bit longer.
@@ -16,4 +16,4 @@ function ImgOverlayExample() {
   );
 }
 
-export default ImgOverlayExample;
+export default Project;
