@@ -1,14 +1,19 @@
 import Card from 'react-bootstrap/Card';
+import * as projects from "../assets"
 
-function Project({ title, text }) {
+function Project({ project }) {
+    const {title, text, repo } = project
   return (
-    <Card className="bg-dark text-white">
-      <Card.Img src="holder.js/100px270" alt="Card image" />
+    <Card key={title} className="bg-dark text-white">
+      <Card.Img src={projects[title]} alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
           {text}
         </Card.Text>
+        <a href={repo}>
+            <i className="fab fa-github" />
+        </a>
       </Card.ImgOverlay>
     </Card>
   );
