@@ -1,12 +1,18 @@
-import './App.css';
-import About from './components/pages/About';
+import { Outlet } from 'react-router-dom';
+import { Header } from './components/Header';
+import { Navigation } from './components/Navigation';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <div className="project-portfolio">
-      <About />
-    </div>
+    <>
+    <Header />
+    <Navigation />
+    <Outlet />
+    <Footer />
+    </>
   );
-};
+}
 
 export default App;
+
