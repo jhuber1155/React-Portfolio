@@ -1,5 +1,3 @@
-import '../styles/Header.css';
-
 const styles = {
     headerStyle: {
       background: 'white',

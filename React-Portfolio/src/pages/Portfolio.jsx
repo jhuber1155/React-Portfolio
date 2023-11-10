@@ -1,4 +1,4 @@
-import { Project } from '../UI/Project'
+import Project from '../components/Project'
 export default function Portfolio() {
     return (
       <div className="container pt-4">
@@ -20,10 +20,7 @@ export default function Portfolio() {
                     <i className="bi-window m-auto text-primary" />
                   </div>
                   <h3>PROJECT.JSX</h3>
-                  <p className="lead mb-0">
                   <Project title='Project Earworm'/>
-
-                  </p>
                 </div>
               </div>
               <div className="col-lg-4">
