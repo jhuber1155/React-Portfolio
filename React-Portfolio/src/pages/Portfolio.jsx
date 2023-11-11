@@ -16,22 +16,22 @@ export default function Portfolio() {
     {
       title: 'knowledgeQuiz',
       text: 'This is the description for Project 3',
-      repo: 'https://github.com/ramitaarora/wine-wizard'
+      repo: 'https://github.com/jhuber1155/Knowledge-Quiz/tree/main'
     },
     {
       title: 'securePassword',
       text: 'This is the description for Project 2',
-      repo: 'https://github.com/ramitaarora/wine-wizard'
+      repo: 'https://github.com/jhuber1155/Secure-Password-Generator'
     },
     {
       title: 'eCommerce',
       text: 'This is the description for Project 2',
-      repo: 'https://github.com/ramitaarora/wine-wizard'
+      repo: 'https://github.com/jhuber1155/E-Commerce'
     },
     {
       title: 'socialMediaApi',
       text: 'This is the description for Project 2',
-      repo: 'https://github.com/ramitaarora/wine-wizard'
+      repo: 'https://github.com/jhuber1155/Social-Media-API'
     },
   ]);
 

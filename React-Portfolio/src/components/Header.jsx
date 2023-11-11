@@ -1,3 +1,5 @@
+import '../assets/css/project.css'
+
 const styles = {
     headerStyle: {
       background: 'white',
