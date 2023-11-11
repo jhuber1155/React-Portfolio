@@ -13,11 +13,30 @@ export default function Portfolio() {
       text: 'This is the description for Project 2',
       repo: 'https://github.com/ramitaarora/wine-wizard'
     },
+    {
+      title: 'knowledgeQuiz',
+      text: 'This is the description for Project 3',
+      repo: 'https://github.com/ramitaarora/wine-wizard'
+    },
+    {
+      title: 'securePassword',
+      text: 'This is the description for Project 2',
+      repo: 'https://github.com/ramitaarora/wine-wizard'
+    },
+    {
+      title: 'eCommerce',
+      text: 'This is the description for Project 2',
+      repo: 'https://github.com/ramitaarora/wine-wizard'
+    },
+    {
+      title: 'socialMediaApi',
+      text: 'This is the description for Project 2',
+      repo: 'https://github.com/ramitaarora/wine-wizard'
+    },
   ]);
 
   return (
     <div className="container pt-4">
-      {/* Other content */}
       <section className="features-icons bg-light text-center m-4">
         <div className="container">
           <div className="row p-2">
@@ -31,7 +50,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-      {/* Other content */}
     </div>
   );
 }
