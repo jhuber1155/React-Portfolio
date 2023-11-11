@@ -1,0 +1,13 @@
+.footer {
+    background-color: 'rgba(82, 153, 211)';
+    height: auto;
+    width: auto;
+}
+
+.g-icon{
+    position: relative;
+    left: 30rem;
+    background-color: aliceblue;
+    height: auto;
+    width: auto;
+}

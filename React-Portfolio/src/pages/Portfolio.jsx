@@ -19,14 +19,14 @@ export default function Portfolio() {
       repo: 'https://github.com/jhuber1155/Knowledge-Quiz/tree/main'
     },
     {
-      title: 'securePassword',
-      text: 'This is the description for Project 2',
-      repo: 'https://github.com/jhuber1155/Secure-Password-Generator'
-    },
-    {
       title: 'eCommerce',
       text: 'This is the description for Project 2',
       repo: 'https://github.com/jhuber1155/E-Commerce'
+    },
+    {
+      title: 'securePassword',
+      text: 'This is the description for Project 2',
+      repo: 'https://github.com/jhuber1155/Secure-Password-Generator'
     },
     {
       title: 'socialMediaApi',
@@ -39,7 +39,7 @@ export default function Portfolio() {
     <div className="container pt-4">
       <section className="features-icons bg-light text-center m-4">
         <div className="container">
-          <div className="row p-2">
+          <div className="row row-cols-1 p-2">
             {projects.map((project, index) => (
               <Project 
               

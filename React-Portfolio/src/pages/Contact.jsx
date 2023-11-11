@@ -13,7 +13,7 @@ function TextControlsExample() {
         <Form.Control type="email" placeholder="name@example.com" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="contact-text-area">
-        <Form.Label>Example textarea</Form.Label>
+        <Form.Label>Please Enter your Comments Here</Form.Label>
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
       <Button as="input" type="submit" value="Submit" />{' '}

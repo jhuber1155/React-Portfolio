@@ -1,20 +1,17 @@
-
-const styles = {
-    footerStyle: {
-      background: 'white',
-    },
-    footingStyle: {
-      fontSize: '100px',
-    },
-  };
-
+import '../assets/css/footer.css'
 
 function Footer() {
-    return (
-      <header style={styles.footerStyle} className="footer">
-        <h1 style={styles.footingStyle}>Footer Example</h1>
-      </header>
-    );
-  }
-  
-  export default Footer;
+  const footerStyle = {
+    backgroundColor: 'rgba(82, 153, 211)',
+  };
+
+  return (
+    <footer style={footerStyle} className="footer">
+  <a href='www.github.com'>
+            <i className="fab fa-github g-icon" />
+        </a>
+    </footer>
+  );
+}
+
+export default Footer;
