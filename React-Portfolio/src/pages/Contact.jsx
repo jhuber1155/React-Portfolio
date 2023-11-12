@@ -66,7 +66,7 @@ function ContactForm() {
         />
       </Form.Group>
       <Form.Group className="mb-3" controlId="contact-text-area">
-        <Form.Label>Please Enter your Comments Here</Form.Label>
+        <Form.Label>Please Enter Your Comments Here</Form.Label>
         <Form.Control
           value={text}
           onChange={handleInputChange}
