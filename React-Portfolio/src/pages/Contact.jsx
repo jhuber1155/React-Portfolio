@@ -31,7 +31,7 @@ function ContactForm() {
       return;
     }
 
-    if (!checkText(text)) {
+    if (!checkText(name, text)) {
       setErrorMessage(
         `Please don't leave this text area blank when submitting a message`
       );
@@ -48,6 +48,7 @@ function ContactForm() {
       <Form.Group className="mb-3" controlId="contact-name">
         <Form.Label>Name:</Form.Label>
         <Form.Control
+          value={name}
           onChange={handleInputChange}
           type="text"
           name="name"
@@ -57,6 +58,7 @@ function ContactForm() {
       <Form.Group className="mb-3" controlId="contact-email">
         <Form.Label>Email address</Form.Label>
         <Form.Control
+          value={email}
           onChange={handleInputChange}
           type="email"
           name="email"
@@ -66,6 +68,7 @@ function ContactForm() {
       <Form.Group className="mb-3" controlId="contact-text-area">
         <Form.Label>Please Enter your Comments Here</Form.Label>
         <Form.Control
+          value={text}
           onChange={handleInputChange}
           as="textarea"
           rows={3}

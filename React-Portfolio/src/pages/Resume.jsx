@@ -1,11 +1,11 @@
 export default function Resume() {
     return (
       <div className="container pt-4">
-        <h1>Resume</h1>
+        <h3>Resume</h3>
         <a href="https://github.com/jhuber1155">
           My Github Repository
         </a>
-        <h2>Front-End Proficiencies</h2>
+        <h5>Front-End Proficiencies</h5>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -16,7 +16,7 @@ export default function Resume() {
           <li>Bootstrap</li>
         </ul>
 
-        <h2>Back-end Proficiencies</h2>
+        <h5>Back-End Proficiencies</h5>
         <ul>
           <li>APIs</li>
           <li>Node</li>
