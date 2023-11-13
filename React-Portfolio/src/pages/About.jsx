@@ -2,13 +2,14 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
+import profilePicture from '../assets/images/profilePicture.jpg'
 
 export default function About() {
     return (
         <Container>
       <Row>
         <Col xs={6} md={4}>
-          <Image src='../../assets/images/profilePicture.jpg' roundedCircle />
+          <Image src={profilePicture} roundedCircle />
         </Col>
       </Row>
         <div className = "container pt-4">
