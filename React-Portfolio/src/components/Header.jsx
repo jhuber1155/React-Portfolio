@@ -2,10 +2,17 @@ import '../assets/css/project.css'
 
 const styles = {
     headerStyle: {
+      display: 'block',
+      position: 'absolute',
+      top: 0,
+      width: '99vw',
+      height: 'auto',
+      padding: 10,
+      marginTop: 100,
       backgroundColor: 'rgba(162, 188, 224)',
     },
     headingStyle: {
-      fontSize: '100px',
+      fontSize: '10px',
     },
   };
   

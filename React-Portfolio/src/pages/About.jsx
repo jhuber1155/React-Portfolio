@@ -9,7 +9,7 @@ export default function About() {
         <Container>
       <Row>
         <Col xs={6} md={4}>
-          <Image src={profilePicture} roundedCircle />
+          <Image src={profilePicture} roundedCircle style={{ width: '171px', height: '180px' }}/>
         </Col>
       </Row>
         <div className = "container pt-4">
