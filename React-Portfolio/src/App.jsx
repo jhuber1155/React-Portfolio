@@ -10,8 +10,8 @@ function App() {
     <Header />
     <main className = "mx-3">
     <Outlet />
-    <Footer />
     </main>
+    <Footer />
     </>
   );
 }
