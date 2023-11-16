@@ -1,6 +1,6 @@
 export default function Resume() {
     return (
-      <div className="container pt-4">
+      <div className="container pt-4" style={{ marginTop: '100px'}}>
         <h3>Resume</h3>
         <a href="https://github.com/jhuber1155">
           My Github Repository

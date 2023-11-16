@@ -42,7 +42,7 @@ export default function Portfolio() {
   ]);
 
   return (
-    <div className="container pt-4">
+    <div className="container pt-4" style={{ marginTop: '100px'}}>
       <section className="features-icons bg-light text-center m-4">
         <div className="container">
           <div className="row row-cols-1 p-2">

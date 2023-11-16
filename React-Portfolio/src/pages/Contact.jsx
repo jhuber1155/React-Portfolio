@@ -44,7 +44,7 @@ function ContactForm() {
   };
 
   return (
-    <Form onSubmit={handleFormSubmit}>
+    <Form onSubmit={handleFormSubmit} style={{ marginTop: '125px'}}>
       <Form.Group className="mb-3" controlId="contact-name">
         <Form.Label>Name:</Form.Label>
         <Form.Control
@@ -75,7 +75,7 @@ function ContactForm() {
           name="text"
         />
       </Form.Group>
-      <Button as="input" type="submit" value="Submit" />{' '}
+      <Button as="input" type="submit" value="Submit" style={{ marginBottom: '10px'}}/>{' '}
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
