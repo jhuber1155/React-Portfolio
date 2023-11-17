@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Project from '../components/Project';
+import '../assets/css/portfolio.css';
 
 export default function Portfolio() {
   const [projects] = useState([
@@ -43,14 +44,14 @@ export default function Portfolio() {
 
   return (
     <div className="container pt-4" style={{ marginTop: '100px'}}>
-      <section className="features-icons bg-light text-center m-4">
+      <section className="features-icons bg-light text-center">
         <div className="container">
-          <div className="row row-cols-1 p-2">
+          <div className="row p-2 projects-container">
             {projects.map((project, index) => (
-              <Project 
-              
+              <Project
                 project={project}
                 key={index}
+                className="project-text"
               />
             ))}
           </div>
