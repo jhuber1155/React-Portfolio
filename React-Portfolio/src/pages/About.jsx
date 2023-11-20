@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import profilePicture from '../assets/images/profilePicture.jpg'
+import BackgroundVideo from '../components/BackgroundVideo'
 
 export default function About() {
     return (
@@ -19,6 +20,7 @@ export default function About() {
         I have learned a lot on my journey so far, and I have a lot to learn yet. I am optimistic that I can continue to grow and learn with this emerging technology as I hone my craft with more languages, syntax, and understanding of how coding and the programming world operate in tandem. I have a creative background in the film and television industry and I hope to put that creativity and abstract thinking to accentuate the possibilities that coding can offer the everyday consumer and user. There is a virtual untapped and limitless market for those who go forth and seek it, and I hope to make my mark in that new frontier!
         </p>
         </div>
+        <BackgroundVideo />
         </Container>
   );
 }

@@ -9,5 +9,3 @@ export {default as securePassword} from "./images/secure-password.png"
 export {default as eCommerce} from "./images/e-commerce.png"
 
 export {default as socialMediaApi} from "./images/social-media-api.png"
-
-// export {default as profilePicture} from "./images/profilePicture.jpg"

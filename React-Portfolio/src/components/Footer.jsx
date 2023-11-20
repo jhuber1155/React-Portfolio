@@ -9,7 +9,7 @@ function Footer() {
     bottom: 0,
     width: '99vw',
     height: 40,
-    backgroundColor: 'rgba(82, 153, 211)',
+    backgroundColor: '#1d1f1c',
   };
 
   const iconStyle = {
