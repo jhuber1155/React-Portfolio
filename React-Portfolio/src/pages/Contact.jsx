@@ -75,7 +75,7 @@ function ContactForm() {
           name="text"
         />
       </Form.Group>
-      <Button as="input" type="submit" value="Submit" style={{ marginBottom: '10px'}}/>{' '}
+      <Button as="input" type="submit" value="Submit" style={{ marginBottom: '22px'}}/>{' '}
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>

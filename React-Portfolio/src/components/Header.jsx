@@ -5,7 +5,7 @@ const styles = {
       display: 'block',
       position: 'absolute',
       top: 0,
-      width: '100vw',
+      width: '99.1vw',
       height: 'auto',
       padding: 10,
       marginTop: 55,

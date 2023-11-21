@@ -7,7 +7,7 @@ function Footer() {
     alignItems: 'center',
     position: 'sticky',
     bottom: 0,
-    width: '99vw',
+    width: '99.1vw',
     height: 40,
     backgroundColor: '#1d1f1c',
   };
